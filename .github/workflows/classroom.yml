@@ -31,10 +31,10 @@ jobs:
         uses: pre-commit/action@v3.0.1
         with:
           extra_args: --all-files
-        continue-on-error: true # <--- Esto permite que siga aunque falle el linting
+        continue-on-error: true
 
       - name: MVN Test
-        id: mvn-test # <--- Este ID es el que usa el reporter abajo
+        id: mvn-test
         uses: classroom-resources/autograding-command-grader@v1
         continue-on-error: true
         with:
@@ -58,4 +58,4 @@ jobs:
         env:
           MVN-TEST_RESULTS: "${{steps.mvn-test.outputs.result}}"
         with:
-          runners: mvn-test # <--- Sin comentarios al final y solo IDs válidos
+          runners: mvn-test
