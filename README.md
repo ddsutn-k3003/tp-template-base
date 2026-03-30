@@ -13,7 +13,7 @@
 
 ## ⚙️ Guía de Sincronización con el Template
 
-Para poder recibir actualizaciones de enunciados, correcciones de tests o cambios en el entorno de evaluación (GitHub Actions), seguí estos pasos para mantener tu repositorio vinculado al template original.
+Para poder recibir **actualizaciones** de enunciados, correcciones de tests o cambios en el entorno de evaluación (GitHub Actions), seguí estos pasos para mantener tu repositorio vinculado al template original.
 
 ---
 
